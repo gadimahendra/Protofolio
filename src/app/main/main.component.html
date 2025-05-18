@@ -1,0 +1,108 @@
+<div class="p-2 mt-2 flex justify-center">
+    <div class="w-[1000px] mt-2 ">
+        <div class="pl-5 ml-2">
+            <p class="text-white text-[15px] ">🖐️ Hello I am,</p>
+            <h1 class="font-bold text-[#fff] text-[80px] mt-3">Full Stack Developer</h1>
+
+            <h1 class="font-bold text-[#a7a4a4] text-[18px] mt-3">As a skilled Full Stack Developer with over 3 years of
+                experience, I combine bold creativity with technical expertise to build scalable, responsive web
+                applications that bridge design and technology.</h1>
+            <div class="p-2 mt-2 ">
+                <button type="button" class="btn-grad cursor-pointer">Hire Me</button>
+                <button type="button" class="btn-grad-d cursor-pointer">Discover my journey</button>
+
+            </div>
+        </div>
+        <div class="border-cls p-2">
+            <h1 class="text-[#a7a4a4] font-bold m-2 text-center">Skills</h1>
+            <i style="color: white;" class="fa-brands fa-html5"></i>
+            <i style="color: white;" class="fab fa-html5"></i>
+            <div class="wrapper mt-3">
+                <div class="maeque-text fade-out-horizontal">
+                    <div class="maeque-text-track ">
+
+                        <p *ngFor="let skill of skillSet" class="bg-white flex items-center font-bold">
+                            <img class="h-[20px] pr-2" [src]="'assets/skills/' + skill.img + '.png'" />
+                            {{skill.name}}
+                        </p>
+                        <p aria-hidden="true" class="bg-white flex items-center font-bold"
+                            *ngFor="let skill of skillSet">
+                            <img class="h-[20px] pr-2" [src]="'assets/skills/' + skill.img + '.png'" />
+                            {{skill.name}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="flex justify-center pt-3 mt-3">
+                    <img class="h-[200px] w-[200px]   rounded-[50%]" style="object-fit: contain;"
+                        src="../../assets/DSC05749.JPG" />
+                </div>
+                <div class="absolute top-[52px] right-[250px]">
+                    <img class="h-[57px]" src="https://framerusercontent.com/images/8ByXL86dgyYbcyOwzHpi642Dk.svg" />
+                </div>
+                <h1 class="absolute right-[140px] font-medium top-[40px] text-[#cde4fe] text-[18px]">3.6 Years of <br />
+                    experience</h1>
+                <div class="text-center  mt-3">
+                    <h1 class="text-[#9D9D9D] text-[40px] font-bold">What makes me <br /> different?</h1>
+                    <p class="text-[#A7A4A4] font-medium mt-2">I blend design and functionality to build
+                        impactful
+                        full-stack
+                        solutions —
+                        turning ideas into reality through clean code, scalable architecture, and seamless user
+                        experiences.</p>
+                    <div class="p-2 mt-2 ">
+                        <a download href="../../assets/Mahendra_resume_V2S.pdf"
+                            class="btn-grad cursor-pointer inline-flex items-center">Download Resume
+                            <mat-icon>
+                                insert_drive_file</mat-icon></a>
+                        <!-- <button type="button" class="btn-grad-d cursor-pointer">Discover my journey</button> -->
+
+                    </div>
+                </div>
+                <div class="flex justify-around mt-3">
+                    <div class="text-[#A7A4A4] w-[400px] card-bg">
+                        <h1 class="text-[#e7e7e7] font-bold text-[22px]">Front-end Development</h1>
+                        <p class="font-bold text-[#A7A4A4] text-[16px] mt-4">I specialize in building fast,
+                            responsive
+                            user interfaces using Angular and modern UI
+                            frameworks. With strong proficiency in HTML, CSS, JavaScript, and TypeScript, I craft
+                            seamless, accessible web experiences. I work with libraries like Angular Material,
+                            Bootstrap, and Tailwind CSS to develop elegant designs, and leverage RxJS for powerful
+                            reactive programming. My focus is always on performance, accessibility, and clean,
+                            maintainable code.
+                        </p>
+                        <div class="flex items-center mt-4">
+                            <img class="h-[20px] pr-1 " src="../../assets/front/html.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/css-3.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/js.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/physics.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/programing.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/typescript.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/tailwind-css-svgrepo-com.png" />
+                            <img class="h-[20px] pr-1" src="../../assets/front/bootstrap.png" />
+
+
+                        </div>
+                    </div>
+                    <div class="text-[#A7A4A4] w-[400px] card-bg">
+                        <h1 class="text-[#e7e7e7] font-bold text-[22px]">Back-end Development</h1>
+                        <p class="font-bold text-[#A7A4A4] text-[16px] mt-4">
+                            I develop robust, scalable backend systems using Node.js and Express.js, integrating
+                            seamlessly with MySQL and MongoDB to build secure, data-driven applications. I design clean
+                            RESTful APIs, ensure efficient data handling, and implement best practices for performance
+                            and maintainability. My backend work supports the frontend with reliable logic, smooth
+                            integrations, and scalable architecture.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
