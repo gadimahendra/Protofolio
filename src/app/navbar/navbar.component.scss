@@ -1,13 +1,9 @@
-// .bg-img-sec {
-//     background-image: url('../../app/assets/navbar-bg.avif')
-// }
+
 
 .navbar-image {
     width: 100%;
-    /* or whatever size you need */
     height: auto;
-    // filter: brightness(1.5) contrast(0.6);
-    /* Brighter + more contrast */
+
 }
 
 .nav-sec {
@@ -17,9 +13,7 @@
 .status {
     display: flex;
     align-items: center;
-    /* vertically center them */
     gap: 8px;
-    /* add space between dot and text */
 }
 
 .active {
@@ -27,7 +21,6 @@
     height: 10px;
     background-color: rgb(19, 135, 58);
     border-radius: 50%;
-    /* make it a perfect circle */
     opacity: 1;
     display: inline-block;
     margin-right: 6px;
